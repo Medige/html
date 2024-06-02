@@ -19,8 +19,8 @@
                 <li><a href="shop.html">Shop</a></li>
                 <li><a href="blog.html">Blog</a></li>
                 <li><a href="about.html">About</a></li>
-                <li><a class="active" href="contact.html">Contact</a></li>
-                <li id="lg-bag"><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="lg-bag"><a class="active" href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
                 <a href="#" id="close"><i class="fa-solid fa-times"></i></a>
             </ul>  
         </div>
@@ -36,72 +36,75 @@
         <p>LEAVE A MESSAGE, We love to hear from you!</p>
     </section>
 
-    <section id="contact_details" class="section-p1">
-        <div class="details">
-            <span>GET IN TOUCH</span>
-            <h2>Visit one of our agency locations or contact us today</h2>
-            <h3>Head Office</h3>
-            <div class="icon_details">
-                <li>
-                    <i class="fa fa-map"></i>
-                    <p>road number 1, hyd,Telanganna</p>
-                </li>
-                <li>
-                    <i class="fa fa-envelope"></i>
-                    <p>med123@gmail.com</p>
-                </li>
-                <li>
-                    <i class="fa fa-phone-alt"></i>
-                    <p>91+82802910102</p>
-                </li>
-                <li>
-                    <i class="fa fa-clock"></i>
-                    <p>Monaday to saturday: 9:00am to 16:00 pm</p>
-                </li>
+   <section id="cart" class="section-p1">
+    <table width="100%">
+        <thead>
+            <tr>
+                <td>Remove</td>
+                <td>Image</td>
+                <td>Product</td>
+                <td>Price</td>
+                <td>Quantity</td>
+                <td>Subtotal</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                <td><img src="./image/products/f1.jpg" alt=""></td>
+                <td>Cartoon Astronaut T-Shirts</td>
+                <td>$119.99</td>
+                <td><input type="number" value="1"></td>
+                <td>$119.99</td>
+            </tr>
+            <tr>
+                <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                <td><img src="./image/products/f2.jpg" alt=""></td>
+                <td>Cartoon Astronaut T-Shirts</td>
+                <td>$119.99</td>
+                <td><input type="number" value="1"></td>
+                <td>$119.99</td>
+            </tr>
+            <tr>
+                <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                <td><img src="./image/products/f3.jpg" alt=""></td>
+                <td>Cartoon Astronaut T-Shirts</td>
+                <td>$119.99</td>
+                <td><input type="number" value="1"></td>
+                <td>$119.99</td>
+            </tr>
+        </tbody>
+    </table>
+   </section>
+
+   <section id="cart_add" class="section-p1">
+        <div id="coupon">
+            <h3>Apply Coupon</h3>
+            <div class="inp">
+                <input type="text" placeholder="Enter Your Coupon">
+                <button>Apply</button>
             </div>
         </div>
-        <div class="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.298299068612!2d78.3888179749373!3d17.49326818341207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9186c9216501%3A0x5b92f2e1fd8fc012!2sJawaharlal%20Nehru%20Technological%20University%20Hyderabad!5e0!3m2!1sen!2sin!4v1717143198170!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+        <div id="subtotal">
+            <h3>Cart Total</h3>
+            <table>
+                <tr>
+                    <td>Cart subtotal</td>
+                    <td>$399</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>$399</strong></td>
+                </tr>
+            </table>
+            <button>Proceed to checkout</button>
         </div>
-    </section>
-
-    <section id="form_details">
-        <form action="">
-            <span>LEAVE A MESSAGE</span>
-            <h2>We love to hear from you</h2>
-            <input type="text" placeholder="your Name">
-            <input type="email" placeholder="E-mail">
-            <input type="text" placeholder="subject">
-            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-            <button>Submit</button>
-        </form>
-        <div class="people">
-            <div>
-                <img src="./image/people/1.png" alt="">
-                <p><span>John Doe</span> Senior Marketing Manager <br> Phone: 92+ 80098929723 <br> Email: medi123@gmail.com</p>
-             </div>
-             <div>
-                 <img src="./image/people/2.png" alt="">
-                 <p><span>Willam Smith</span> Senior Marketing Manager <br> Phone: 92+ 80098929723 <br> Email: medi123@gmail.com</p>
-              </div>
-              <div>
-                 <img src="./image/people/3.png" alt="">
-                 <p><span>Emma Stone</span> Senior Marketing Manager <br> Phone: 92+ 80098929723 <br> Email: medi123@gmail.com</p>
-              </div>
-        </div>
-       
-    </section>
-
-    <section id="newsletter" class="section-p1 section-m1">
-        <div class="newstext">
-            <h4>Sign Up For Newsletters</h4>
-            <p>Get E-mail updates about our latest shop and <span>special offers.</span></p>
-        </div>
-        <div class="form">
-            <input type="email" name="email" id="email" placeholder="enter your email id...">
-            <button>Sign Up</button>
-        </div>
-    </section>
+   </section>
 
     <footer class="section-p1" >
         <div class="col">
